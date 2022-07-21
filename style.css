@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%; 
+    margin: 0 auto;
+
+}
+.header{
+    background-image: url("img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+    border: 1px solid blueviolet;
+    height: 180px;
+    width: 100%; 
+   
+
+}
+.menu{
+    border: 1px solid bisque ;
+    height: 50px;
+    width: 100%; 
+    background: pink;
+
+}
+
+#main{
+    border: 1px solid seagreen;
+    height: auto;
+    width: 100%; 
+    background: aquamarine;
+    
+
+}
+ul.list_menu {
+    padding: 0;
+    border: 1px solid black;
+    margin: 0 auto;
+    list-style: none;
+    width: 60%;
+    line-height: 27px;
+}
+ul.list_menu li {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+ul.list_menu li:hover {
+    background: lavender;
+}
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.sidebar{
+    border: 0.5px solid salmon;
+    height: 390px;
+    width: 20%; 
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+    
+}
+u1.list_sidebar {
+    padding: 0;
+    border: 1px solid black;
+    list-style: none;
+    width: 100%;
+    line-height: 27px;
+}
+u1.list_sidebar li {
+    margin: 5px;
+    padding: 5px;
+}
+u1.list_sidebar li:hover {
+    background: orange;
+}
+u1.list_sidebar li a {
+    text-decoration: none;
+    text-align: left    ;
+    color: blueviolet;
+    display: block;
+}
+
+.maincontent{
+    border: 1px solid  maroon;
+    height: auto;
+    width: 79%; 
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right ;
+
+}
+.footer{
+    border: 1px solid #000;
+    height: 150px;
+    width: 100%; 
+    background: salmon;
+
+}
+.clear{
+    clear:both
+}
+ul.sanpham {
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.sanpham li {
+    width: 18%;
+    border: 1px dashed black;
+    margin: 5px;
+    float: left;
+    background: burlywood;
+    height: 385px ;
+}
+ul.sanpham li img {
+    width: 100%;
+}
+p.tittle.product {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+p.price.product {
+text-align: center;
+color: orangered;
+font-size: 15px;
+font-weight: bold;
+
+}
+
+p.footer {
+    text-align: center;
+    color: blue;
+}
